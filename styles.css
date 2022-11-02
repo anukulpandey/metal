@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+html{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+body{
+    margin: 10px;
+    background: linear-gradient(120deg, #FF00C7 0%, #51003F 100%), linear-gradient(120deg, #0030AD 0%, #00071A 100%), linear-gradient(180deg, #000346 0%, #FF0000 100%), linear-gradient(60deg, #0029FF 0%, #AA0014 100%), radial-gradient(100% 165% at 100% 100%, #FF00A8 0%, #00FF47 100%), radial-gradient(100% 150% at 0% 0%, #FFF500 0%, #51D500 100%);
+background-blend-mode: overlay, color-dodge, overlay, overlay, difference, normal;
+padding: 20px;
+}
+
+.cstmbg{
+    background: linear-gradient(125deg, #FFFFFF 0%, #000000 100%), linear-gradient(200deg, #FFD9E8 0%, #FFD9E8 50%, #DE95BA calc(50% + 1px), #DE95BA 60%, #7F4A88 calc(60% + 1px), #7F4A88 75%, #4A266A calc(75% + 1px), #4A266A 100%), linear-gradient(113deg, #FFD9E8 0%, #FFD9E8 40%, #DE95BA calc(40% + 1px), #DE95BA 50%, #7F4A88 calc(50% + 1px), #7F4A88 70%, #4A266A calc(70% + 1px), #4A266A 100%);
+background-blend-mode: overlay, overlay, normal;
+padding: 0.5rem;
+color:black;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.morph{
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 10px;
+margin: 4px;
+color: black;
+font-family: Poppins;
+margin-top: 15px;
+}
+
+.imgstyle{
+    max-width: 40%;
+    height: auto;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.flexer{
+    display:flex; flex-direction: row;
+}
